@@ -7,7 +7,7 @@ lock '3.3.5'
 
 set :application, 'mis'
 
-set :repo_url, 'git@gitlab.icar99.com:zc/mis.git'
+set :repo_url, 'git@github.com:anhuiliujun/what.git'
 set :repo_html_url, 'git@gitlab.icar99.com:ued/mis.git'
 
 set :deploy_to, "/home/wisdom/mis"

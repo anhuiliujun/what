@@ -85,7 +85,7 @@ gem "js-routes"
 
 
 #GEO
-gem 'geo', git: 'git@gitlab.icar99.com:zc/geo.git', tag: 'v0.0.5'
+gem 'geo', git: 'git@github.com:anhuiliujun/geo.git'# git: 'git@gitlab.icar99.com:zc/geo.git', tag: 'v0.0.5'
 
 # Object-based searching
 gem 'ransack', '~> 1.6.6'
@@ -107,7 +107,7 @@ gem "kaminari"
 gem "select2-rails"
 
 # null object
-gem 'naught', git: 'git@gitlab.icar99.com:zc/naught.git', tag: '0.1.2'
+gem 'naught', git: 'git@github.com:anhuiliujun/naught.git'#, tag: '0.1.2'
 #Qiniu Ruby SDK
 #  https://github.com/qiniu/ruby-sdk
 #Qiniu upload image base64 data-url
@@ -122,10 +122,10 @@ gem 'hashids', '~> 1.0', '>= 1.0.2'
 gem 'backbone-support', '~> 0.5.1'
 
 # # 发送短信
-gem 'sms_client', git: 'git@gitlab.icar99.com:zc/sms_client.git', tag: 'v0.0.5'
+gem 'sms_client', git: 'git@github.com:anhuiliujun/sms_client.git'#, tag: 'v0.0.5'
 
 # http调用
-gem "http_client", git: 'git@gitlab.icar99.com:zc/http_client.git', tag: '0.0.4'
+gem "http_client", git: 'git@github.com:anhuiliujun/http_client.git'#, tag: '0.0.4'
 
 # add comments to migration
 gem 'migration_comments', '~> 0.3.2'

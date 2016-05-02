@@ -18,7 +18,7 @@ set :puma_workers, 2
 
 set :rails_env, "staging"
 
-set :branch, 'staging'
+#set :branch, 'staging'
 set :html_branch, 'development'
 
 set :sidekiq_role, :worker
