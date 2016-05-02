@@ -58,7 +58,7 @@ Rails.application.configure do
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.action_controller.asset_host = 'http://7xnnp5.com1.z0.glb.clouddn.com'
+  #config.action_controller.asset_host = 'http://7xnnp5.com1.z0.glb.clouddn.com'
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -79,7 +79,7 @@ Rails.application.configure do
 
    # 邮件配置
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = {host: 'https://www.icar99.com'}
+  #config.action_mailer.default_url_options = {host: 'https://www.icar99.com'}
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     address: "",
@@ -90,20 +90,20 @@ Rails.application.configure do
     authentication: 'login'
   }
 
-  config.middleware.use ExceptionNotification::Rack,
-    :ignore_crawlers => %w{Googlebot bingbot},
-    :email => {
-      :email_prefix => "[Error From ZC] ",
-      :sender_address => %{"notifier" <bug@icar99.com>},
-      :exception_recipients => %w{buging@icar99.com},
-      :delivery_method => :smtp,
-          :smtp_settings => {
-            :port => 25,
-            :domain => "icar99.com",
-            :authentication => 'login',
-            :address => "smtp.icar99.com",
-            :user_name => "bug@icar99.com",
-            :password => "0.amet1piyu2x4j9k90.32u7ir88wge0o1or"
-          }
-  }
+  #config.middleware.use ExceptionNotification::Rack,
+    #:ignore_crawlers => %w{Googlebot bingbot},
+    #:email => {
+      #:email_prefix => "[Error From ZC] ",
+      #:sender_address => %{"notifier" <bug@icar99.com>},
+      #:exception_recipients => %w{buging@icar99.com},
+      #:delivery_method => :smtp,
+          #:smtp_settings => {
+            #:port => 25,
+            #:domain => "icar99.com",
+            #:authentication => 'login',
+            #:address => "smtp.icar99.com",
+            #:user_name => "bug@icar99.com",
+            #:password => "0.amet1piyu2x4j9k90.32u7ir88wge0o1or"
+          #}
+  #}
 end
